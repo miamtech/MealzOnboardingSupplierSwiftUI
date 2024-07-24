@@ -1,6 +1,6 @@
 //
 //  Recipes.swift
-//  MealzOnboardingSupplierSwiftUI
+//  MealzOnboardingProviderSwiftUIApp
 //
 //  Created by miam x didi on 24/07/2024.
 //
