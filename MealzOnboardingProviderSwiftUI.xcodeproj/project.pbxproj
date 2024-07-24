@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		6E2345A42C51440A00866A0B /* PretendUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2345A22C51440700866A0B /* PretendUserRepository.swift */; };
 		6E2345A72C51551100866A0B /* MealzOnboardingProviderSwiftUI.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = 6E2345A52C51551100866A0B /* MealzOnboardingProviderSwiftUI.entitlements */; };
 		6E2345A82C51551100866A0B /* MealzOnboardingProviderSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2345A62C51551100866A0B /* MealzOnboardingProviderSwiftUIApp.swift */; };
+		6E2345902C5140A300866A0B /* MealzNaviOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6E23458F2C5140A300866A0B /* MealzNaviOSSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2345902C5140A300866A0B /* MealzNaviOSSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +149,10 @@
 			dependencies = (
 			);
 			name = MealzOnboardingProviderSwiftUI;
-			productName = MealzOnboardingSupplierSwiftUI;
+			packageProductDependencies = (
+				6E23458F2C5140A300866A0B /* MealzNaviOSSDK */,
+			);
+			productName = MealzOnboardingProviderSwiftUI;
 			productReference = 6E23456D2C511DAA00866A0B /* MealzOnboardingProviderSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -175,6 +180,9 @@
 				Base,
 			);
 			mainGroup = 6E2345642C511DAA00866A0B;
+			packageReferences = (
+				6E23458E2C5140A300866A0B /* XCLocalSwiftPackageReference "../../MealzNaviOSSDK" */,
+			);
 			productRefGroup = 6E23456E2C511DAA00866A0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -427,6 +435,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		6E23458E2C5140A300866A0B /* XCLocalSwiftPackageReference "../../MealzNaviOSSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../MealzNaviOSSDK;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E23458F2C5140A300866A0B /* MealzNaviOSSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MealzNaviOSSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E2345652C511DAA00866A0B /* Project object */;
 }
