@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1B1F1B2C5160DD00AC72BA /* MarmitonUIMealzIOS in Frameworks */ = {isa = PBXBuildFile; productRef = 6E1B1F1A2C5160DD00AC72BA /* MarmitonUIMealzIOS */; };
 		6E2345732C511DAA00866A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2345722C511DAA00866A0B /* ContentView.swift */; };
 		6E2345752C511DAC00866A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2345742C511DAC00866A0B /* Assets.xcassets */; };
 		6E2345822C51223100866A0B /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2345812C51223100866A0B /* Recipes.swift */; };
@@ -46,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E2345902C5140A300866A0B /* MealzNaviOSSDK in Frameworks */,
+				6E1B1F1B2C5160DD00AC72BA /* MarmitonUIMealzIOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +164,7 @@
 			name = MealzOnboardingProviderSwiftUI;
 			packageProductDependencies = (
 				6E23458F2C5140A300866A0B /* MealzNaviOSSDK */,
+				6E1B1F1A2C5160DD00AC72BA /* MarmitonUIMealzIOS */,
 			);
 			productName = MealzOnboardingProviderSwiftUI;
 			productReference = 6E23456D2C511DAA00866A0B /* MealzOnboardingProviderSwiftUI.app */;
@@ -193,6 +196,7 @@
 			mainGroup = 6E2345642C511DAA00866A0B;
 			packageReferences = (
 				6E23458E2C5140A300866A0B /* XCLocalSwiftPackageReference "../../MealzNaviOSSDK" */,
+				6E1B1F192C5160DD00AC72BA /* XCLocalSwiftPackageReference "../../MarmitonUIMealzIOS" */,
 			);
 			productRefGroup = 6E23456E2C511DAA00866A0B /* Products */;
 			projectDirPath = "";
@@ -449,6 +453,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		6E1B1F192C5160DD00AC72BA /* XCLocalSwiftPackageReference "../../MarmitonUIMealzIOS" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../MarmitonUIMealzIOS;
+		};
 		6E23458E2C5140A300866A0B /* XCLocalSwiftPackageReference "../../MealzNaviOSSDK" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../MealzNaviOSSDK;
@@ -456,6 +464,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6E1B1F1A2C5160DD00AC72BA /* MarmitonUIMealzIOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarmitonUIMealzIOS;
+		};
 		6E23458F2C5140A300866A0B /* MealzNaviOSSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MealzNaviOSSDK;
