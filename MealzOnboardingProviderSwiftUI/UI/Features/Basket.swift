@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MealzNaviOSSDK
 
 // TODO: 6. Show MyBasket
 // TODO 6a. Import Nav
@@ -13,6 +14,6 @@ import SwiftUI
 
 struct Basket: View {
     var body: some View {
-        Text("My Basket")
+        MealzMyBasketFeatureSwiftUI(myBasketContructor: MyBasketFeatureConstructor(navigateToCatalog: {}, navigateToCheckout: { _ in }))
     }
 }
