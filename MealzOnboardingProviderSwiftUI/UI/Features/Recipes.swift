@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MealzNaviOSSDK
 
 // TODO 4. Add Mealz Recipe Details
 // 4a. import Nav
@@ -68,7 +69,7 @@ struct Recipes: View {
             .frame(maxWidth: .infinity)
             .background(Color.yellow)
             .sheet(isPresented: $showRecipeDetails, content: {
-                Text("RecipeId")
+                MealzRecipeDetailsFeatureSwiftUI(recipeId: recipeId)
             })
         }
     }
